@@ -16,7 +16,7 @@ export class DeliveryManUpdateComponent implements OnInit {
 
    /* #region  Global Variabes */
    updateDeliveryManForm: FormGroup;
-   disableSumbit: boolean = false;
+   disableSubmit: boolean = false;
    isSubmitted: boolean = false;
    storedDeliveryMan: DeliveryMan;
    updatedDeliveryMan: DeliveryMan;
